@@ -1,0 +1,432 @@
+*{
+
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html, body{
+
+	height: 100%;
+	background: rgb(225,225,225);
+}
+
+/*inicio pagina login*/
+.box-login{
+    box-shadow: 10px 10px 5px #888888;
+	max-width: 600px;
+	width: 95%;
+	padding: 60px 2%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+
+
+
+
+}
+.box-login h2{
+text-align:center;
+font-size: 20px;
+text-transform: uppercase;
+margin: 10px 0;
+color: black;
+
+}
+.box-login input[type=text],
+.box-login input[type=password]
+{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	margin-top: 8px;
+}
+
+.box-login input[type=submit]{
+    width: 100px;
+    height: 40px;
+    cursor:pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    background:#00695c;
+    color: white;
+    border: 0;
+
+
+}
+
+/*box erro do painel*/
+
+.erro-box{
+	width: 100%;
+	padding: 8px 2%;
+	text-align: center;
+    background:#F75353;
+    color:white;
+    font-size: 15px;
+}
+
+/*fim pagina login*/
+
+
+/*Painel de Controle*/
+.clear{clear:both;}
+
+.center{padding: 0 1%;}
+
+.loggout{
+	float: right;
+}
+
+.loggout a{
+	padding: 0 15px;
+	position: relative;
+	top: 1px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+.loggout a > span {
+font-size: 16px;
+text-decoration: none;
+
+
+}
+
+header{
+	position: relative;
+	left: 300px;
+	padding: 5px 0;
+	background:#00838f;
+	width:calc(100% - 300px);
+}
+.loggout{
+	float: right;
+}
+.loggout a{
+
+	color: white;
+	font-size: 30px;
+}
+.desenvolvedor{
+	float: ;
+      position: relative;
+
+
+}
+.desenvolvedor a{
+	color: white;
+	font-size: 10px;
+
+}
+
+
+div.menu{
+	overflow-y: auto;
+	height: 900px;
+	padding: 10px 0;
+    background: #04757a;
+    position: fixed;
+    left: 0;
+    top: 0;
+	float: left;
+	width: 300px;
+} 
+div.box-usuario{
+	text-align: center;
+}
+
+
+.avatar-usuario{
+	text-align: left;
+	display: inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+
+.avatar-usuario i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+	font-size: 50px;
+	color: white;
+}
+.imagem-usuario{
+	display: inline-block;
+width: 130px;
+height: 130px;
+
+
+
+}
+.imagem-usuario img{
+width: 130px;
+border-radius: 50%;
+height: 130px;
+	
+}
+.nome-usuario{
+
+	text-align: center;
+	margin-top: 10px;
+}
+.nome-usuario p{
+	color:white;
+	font-size: 14px;
+	font-weight:normal;
+
+}
+
+/*Conteudo principal do painel*/
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 49%;
+	
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.contentt{
+	width: calc(100% - 300px);
+	position: relative;
+	left: 300px;
+	padding: 10px;
+
+}
+.box-content{
+    background: white;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.items-menu{
+	margin-top: 30px;
+}
+.items-menu h2{
+	text-align: left;
+	font-weight: 300;
+	font-size: 18px;
+	font-weight: bold;
+	background: #00838f;
+	color: white;
+	padding: 8px;
+}
+
+/*Tabelas*/
+table{
+	margin:20px 0;
+	width: 100%;
+	border-collapse: collapse;
+
+}
+table tr:nth-of-type(1){
+background:#00838f;
+color: white;
+}
+table tr{
+	border-bottom: 1px solid #ccc;
+}
+
+
+table tr{
+	color:#555;
+}
+
+table td{
+	padding: 8px;
+}
+
+
+
+table a.btn{
+font-size: 13px;
+color: white;
+text-decoration: none;
+padding: 4px 6px;
+
+}
+
+a.btn.edit{background:#00695c;}
+
+a.btn.delete{background:#E05C4E;}
+
+
+.items-menu a{
+    display: block;
+    padding: 8px;
+    font-weight:300 ;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #00838f;
+    
+
+}
+
+/*Box Metricas*/
+
+.box-metricas{
+	margin-top:16px;
+	padding:0 15px;
+}
+
+.box-metrica-single{
+	float: left;
+	position: relative;
+	width: 33.3%;
+	background: #F4B03E;
+	border: 5px solid white;
+}
+
+.box-metricas .box-metrica-single:nth-of-type(2){
+	background: #E05C4E;
+}
+
+.box-metricas .box-metrica-single:nth-of-type(3){
+	background: #0091ea;
+}
+
+.box-metrica-wraper{
+	padding: 10px 20px;
+	text-align: left;
+	color: white;
+}
+
+.box-metrica-wraper h2{
+	font-size: 28px;
+}
+
+.box-metrica-wraper p{
+	padding: 10px 0;
+	font-size: 26px;
+}
+
+/*Tabela responsiva*/
+
+.table-responsive{
+	max-width: 1280px;
+	margin:20px auto;
+}
+.table-responsive .row:nth-of-type(1){
+       
+       font-weight: bold;
+       
+}
+
+
+.table-responsive .row{
+       
+      
+       color:#555;
+       border-bottom: 1px solid #ccc;
+       padding: 8px 0;
+}
+.col{
+	float: left;
+	width: 50%;
+}
+
+.box-content form{
+	margin: 30px 0;
+}
+.box-content form label{
+	font-size: 17px;
+	font-weight: 300;
+	color: black;
+	display: block;
+}
+
+.box-content .form-group{
+      margin: 15px 0; 
+
+}
+.box-content form input[type=text],
+.box-content form input[type=password]
+{
+	margin-top: 8px;
+	font-size:16px;
+	font-weight: normal;
+	color: black;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding: 8px;
+}
+
+.box-content form textarea{
+	margin-top: 8px;
+	font-size:16px;
+	font-weight: normal;
+	color: black;
+	width: 100%;
+	height: 150px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	resize: vertical;
+}
+
+.box-content form select{
+	margin-top: 8px;
+	font-size:16px;
+	font-weight: normal;
+	color: black;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+
+
+
+}
+.box-content form input[type=file]{
+		margin-top: 8px;
+
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+}
+
+.box-content form input[type=submit]{
+	width: 100px;
+    height: 40px;
+    cursor:pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    background:#00695c;
+    color: white;
+    border: 0;
+
+}
+/*Box de alerta!*/
+
+.box-alert{
+	width: 100%;
+	padding: 8px 0;
+	text-align: center;
+}
+.sucesso{
+background: #43a047;
+color: white;
+
+}
+.erro{
+	
+	background:#F75353;
+	color: white;

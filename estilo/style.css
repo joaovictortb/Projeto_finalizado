@@ -1,0 +1,525 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+/**Boot CSS**/
+
+img{
+
+	width: 100%;
+}
+.center{
+	max-width: 1280px;
+	padding:0 2%;
+	margin: 0 auto;
+
+}
+.w33{
+
+	width: 33.3%;
+}
+.w50{
+	padding:0 40px;
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear: both;
+	}
+
+	/**Estilização do site**/
+
+    header{
+    	padding: 20px 0;
+		background: #4682B4	;
+	}
+	header .logo{
+		font-size: 25px;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: white;
+	}
+	.mobile{
+		display: none;
+	}
+	nav.desktop ul{
+		position: relative;
+		top:6px;
+		list-style-type: none;
+	}
+	nav.desktop li{
+		font-weight: 300;
+		font-size: 18px;
+		padding:0 20px; 
+		text-transform: uppercase;
+		display: inline-block;
+	}
+	nav.desktop a {
+		color: white;
+		text-decoration: none;
+	}
+
+	section.banner-container{
+		width: 100%;
+		height:600px;
+	    background-size: cover;
+	    position: relative;
+	}
+	.banner-single{
+
+		position: absolute;
+		left: 0;
+		top: 0;
+		width:100%;
+		height: 100%;
+		background-size: cover;
+	    
+		
+	}
+	
+.overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.0)
+}
+
+
+section.banner-container form{
+	width: 98%;
+	max-width: 600px;
+	z-index: 2;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+}
+section.banner-container form h2{
+	
+	color:#333;
+	
+	font-weight: 300;
+	font-size: 45px;
+	text-align: center;
+	text-shadow: 0.0em 0.1em white
+}
+section.banner-container form input[type=email]{
+	width: 100%;
+	height: 66px;
+	margin-top: 10px;
+	background: white;
+	color:#333;
+	font-size: 22px;
+	padding-left: 10px;
+
+}
+
+section.banner-container form input[type=submit]{
+	width: 100%;
+	height: 66px;
+	margin-top: 10px;
+	background: #32CD32;
+	color: white;
+	cursor: pointer;
+	font-size: 22px;
+	border: 0;
+}
+
+
+section.descricao-autor{
+	padding: 10px 0;
+}
+section.descricao-autor h2{
+
+	font-size: 40px;
+	font-weight: 400;
+	color:#444;
+	padding: 50px 0;
+    text-align: center;
+	}
+
+section.descricao-autor h3{
+	font-size: 30px;
+	color: #444;
+	margin-top: 95px;
+	padding: 0px 0;
+	text-align: left;
+
+}
+
+section.descricao-autor p{
+	font-size: 20px;
+	color: #444;
+	margin-top: 10px;
+	padding: 0px 0;
+	text-align: left;
+
+}
+section.descricao-autor h4{
+	font-size: 30px;
+	color: #008000;
+	margin-top: 10px;
+	padding: 0px 0;
+	text-align: left;
+}
+
+section.descricao-autorr{
+	padding: 60px 0;
+}
+section.descricao-autorr h2{
+
+	font-size: 50px;
+	font-weight: 400;
+	color:#444;
+	padding: 50px 0;
+    text-align: right;
+	}
+
+section.descricao-autorr h3{
+	font-size: 30px;
+	color: #444;
+	margin-top: 95px;
+	padding: 0px 0;
+	text-align: left;
+}
+
+section.descricao-autorr p{
+	font-size: 20px;
+	color: #444;
+	margin-top: 10px;
+	padding: 1px 0;
+	text-align: left;
+
+}
+section.descricao-autorr h4{
+	font-size: 30px;
+	color: #008000;
+	margin-top: 10px;
+	padding: 0px 0;
+	text-align: left;
+}
+
+section.descricao-autorrr{
+	padding: 60px 0;
+}
+section.descricao-autorrr h2{
+
+	font-size: 50px;
+	font-weight: 400;
+	color:#444;
+	padding: 50px 0;
+    text-align: right;
+	}
+
+section.descricao-autorrr h3{
+	font-size: 30px;
+	color: #444;
+	margin-top: 95px;
+	padding: 0px 0;
+	text-align: left;
+}
+
+section.descricao-autorrr p{
+	font-size: 20px;
+	color: #444;
+	margin-top: 10px;
+	padding: 1px 0;
+	text-align: left;
+
+}
+section.descricao-autorrr h4{
+	font-size: 30px;
+	color: #008000;
+	margin-top: 10px;
+	padding: 0px 0;
+	text-align: left;
+}
+
+section.extras{
+   padding: 10px 0;
+
+
+}
+section.extras h2{
+
+    font-size: 40px;
+	color: #444;
+	margin-top: 10px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.holder {
+    position: center;
+    display: flex;
+    justify-content: left;
+}
+.imagem {
+  width: 800px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+
+}
+.imagem::after {
+  content: attr(data-title); /* estilo que coloco a legenda no lugar */
+  position: absolute;
+  width: 1%;
+  bottom: -20px;
+  left: 0;
+}
+
+
+section.descricao-quartos{
+	padding: 0px 0;
+}
+section.descricao-quartos h2{
+
+	font-size: 24px;
+	font-weight: 400;
+	color:#444;
+	padding: 0px 0;
+    text-align: left;
+	}
+
+section.descricao-quartos h3{
+	font-size: 30px;
+    font-weight: 400;
+    color: #444;
+	margin-top: 10px;
+	padding: 0px 0;
+	text-align: left;
+}
+
+section.descricao-quartos p{
+	font-size: 20px;
+	color: #444;
+	margin-top: 10px;
+	padding: 1px 0;
+	text-align: left;
+
+}
+section.descricao-quartos h4{
+	font-size: 30px;
+	color: #008000;
+	margin-top: 10px;
+	padding: 40px 0;
+	text-align: left;
+}
+section.segundo-banner{
+	padding: 80px 50;
+	margin-top: 80px;
+}
+section.segundo-banner h1{
+	font-size: 40px;
+	color:#444;
+	padding-bottom: 50px;
+	padding-top: 130px;
+    text-align: center;
+
+    display: inline-block;
+   
+
+
+    width: 100%;
+	}
+
+section.segundo-banner p{
+	font-size: 40px;
+	color: #444;
+	margin-top: 95px;
+	padding: 10px 0;
+	text-align: left;
+
+}
+
+
+section.segundo-banner h5{
+	font-size: 30px;
+	color: #1E90FF;
+	margin-top: 10px;
+	padding: 50px 0;
+	text-align: left;
+}
+
+section.ultima-parte{
+	
+		width: 100%;
+		height:600px;
+		background-color:#20B2AA		;
+	    background-size: cover;
+	    position: relative;
+
+	}
+section.ultima-parte h1{
+	float:right;
+	font-weight: 400;
+    font-size: 30px;
+	color: white;
+	margin-top: 10px;
+	padding: 80px 0;
+	
+}
+	section.ultima-parte h2{
+    float: left;
+    font-weight: 400;
+    font-size: 30px;
+	color: white;
+	margin-top: 10px;
+	padding: 0.1px 0;
+    padding: 80px 0;
+
+}
+
+section.ultima-parte form{
+
+    width: 98%;
+	max-width: 600px;
+	z-index: 2;
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	left:70%;
+	top: 60%;
+	transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	/* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    
+    border-radius: 1em;
+}
+
+section.ultima-parte h3{
+    float:left;
+    font-weight: 400;
+    font-size: 25px;
+	color: white;
+	padding: 30px 0;
+	
+}
+
+
+.holderr {
+    position: center;
+    display: flex;
+    justify-content: left;
+}
+.imagem {
+  width: 800px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+
+}
+.imagem::after {
+  content: attr(data-title); /* estilo que coloco a legenda no lugar */
+  position: absolute;
+  width: 1%;
+  bottom: -20px;
+  left: 0;
+}
+section.extrass h2{
+
+    font-size: 20px;
+	color: #444;
+	margin-top: 10px;
+	padding: 50px 0;
+	text-align: center;
+}
+section.error{
+	min-height:790px;
+	padding: 50px 0;
+}
+section.error h2{
+	text-align: center;
+	color: #444;
+	font-weight: 400;
+}
+#map{
+	width: 100%;
+	height: 40px;
+}
+
+
+
+footer{
+	background-color: #008B8B;
+	padding: 25px 0 ;
+
+}
+footer p{
+	color:white;
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px 0;
+
+}
+
+.contato-container{
+
+
+    padding:30px 0;
+	text-align: center;
+}
+
+.contato-container input[type=text]{
+
+    margin:8px 0;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	font-size: 16px;
+	max-width: 800px;
+	color: #444;
+}
+
+.contato-container textarea{
+	padding:8px;
+    margin:8px 0;
+	width: 100%;
+	height: 120px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	font-size: 16px;
+	max-width: 800px;
+	resize: vertical;
+	color: #444;
+
+
+}
+
+
+.contato-container input[type=submit]{
+    background: #32CD32;
+    width: 140px;
+    height: 40px; 
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width: 200px){
+
+
+	.w50{
+		padding: 20px;
+		width: 100%;
+	}
+
+
+

@@ -1,0 +1,7 @@
+Qual o banco que eu usei no Projeto 01 ?
+
+- MySql
+
+O MySQL é controlado pela Oracle Corporation que manteve o código aberto, com os devidos acordo de uso, de sua antecessora sueca My SQL AB. Ou seja, ele é um programa gratuito!
+
+Criar BD com nome: projeto_01
